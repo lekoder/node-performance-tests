@@ -1,0 +1,26 @@
+{
+  "name": "node-performance-test",
+  "version": "1.0.0",
+  "description": "Those are some basic perfomance test to determine best approach to use in another projects.",
+  "main": "perform.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node perform.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lekoder/node-performance-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lekoder/node-performance-tests/issues"
+  },
+  "homepage": "https://github.com/lekoder/node-performance-tests#readme",
+  "dependencies": {
+    "glob": "^6.0.1"
+  }
+}
