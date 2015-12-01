@@ -20,7 +20,7 @@ glob("tests/**/*.js", function (er, files) {
     files.forEach(function (f) {
         var test = require('./' + f);
         var its = speedTest(test, time);
-        console.log("%s\t%d/s", f, (its) * (1000 / time));
+        console.log("%s\t%d/ms", f, (its) * (1000 / time)/1000);
     });
 
 });

@@ -1,6 +1,6 @@
+var data = { a: { b: { c: { d: [] } } } };
 module.exports = function () {
-    var data = { a: { b: { c: { d: [] } } } };
-    
+
     if (data)
         if (data.a)
             if (data.a.b)
