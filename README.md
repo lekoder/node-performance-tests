@@ -1,0 +1,1 @@
+Those are some basic perfomance test to determine best approach to use in another projects.
